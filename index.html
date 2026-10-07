@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Praktikum Bootstrap</title>
+</head>
+<body>
+    
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm p-3">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Portofolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div id="home" class="bg-info bg-gradient text-white text-center py-5">
+    <div class="contrainer">
+        <span class="badge text-bg-warning">Semester 3</span>
+        <h1>Halo, Saya Zahra Mutia Rahmah</h1>
+        <p>Mahasiswa Pendidikan Sistem dan Teknologi Informasi</p>
+        <button type="button" class="btn btn-light">Lihat Keahlian Saya</button>
+    </div>
+</div>
+
+<!-- Keahlian saya -->
+ <div id="skill" class="container py-5">
+    <h2 class="mb-4 text-center">Keahlian Saya</h2>
+    <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="card border-primary border-2 shadow-sm h-100">
+                <div class="card-body bg-primary text-white">
+                <h5 class="card-title">HTML dan CSS</h5>
+                <p class="card-text">Dasar sembangun struktur web dan tampilan halaman</p>
+                <span class="badge text-bg-info">Front-End</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="card border-danger border-2 shadow-sm h-100">
+                <div class="card-body bg-danger text-white">
+                <h5 class="card-title">HTML dan CSS</h5>
+                <p class="card-text">Dasar sembangun struktur web dan tampilan halaman</p>
+                <span class="badge text-bg-info">Front-End</span>
+            </div>
+        </div>
+        </div>
+
+    <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="card border-success border-2 shadow-sm h-100">
+                <div class="card-body bg-success text-white">
+                <h5 class="card-title">HTML dan CSS</h5>
+                <p class="card-text">Dasar sembangun struktur web dan tampilan halaman</p>
+                <span class="badge text-bg-info">Front-End</span>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- alert -->
+    <div class="alert alert-info mt-4" role="alert">
+        Aku belajar semua ini di mata kuliah pemograman internet
+    </div>
+ </div>
+
+ <!-- Contact -->
+  <div id="kontak" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Kontak Saya</h2>
+        <form class="mx-auto bg-white p-4 rounded shadow-sm" style="max-width: 500px;">
+        <!-- input nama -->
+        <div class="mb-3">
+        <label for="nama" class="form-label">Masukkan Nama</label>
+        <input type="text" class="form-control" id="nama" placeholder="Zahra Mutia">
+        </div>
+        <!-- input pesan -->
+        <div class="mb-3">
+            <label for="pesan" class="form-label">Pesan</label>
+            <textarea class="form-control" id="pesan" rows="3" placeholder="Masukkan Pesan Anda Disini"></textarea>
+        </div>
+        <button type="button" class="btn btn-primary w-100">Kirim Pesan</button>
+        </form>
+    </div>
+  </div>
+
+  <!-- footer -->
+<footer class="bg-dark text-light text-center py-3">
+    <small>&copy; 2026 - Praktikum Pemograman Internet - Pertemuan 6 </small>
+
+</footer>
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
